@@ -1,0 +1,317 @@
+/* Modern AI Translator Styles - JavaFX Compatible */
+
+/* Root Container with Translation-themed Background */
+.root-container {
+    -fx-background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-font-smoothing-type: lcd;
+}
+
+/* Header Section */
+.header-container {
+    -fx-alignment: CENTER;
+    -fx-spacing: 8;
+    -fx-background-color: rgba(30, 30, 50, 0.9);
+    -fx-padding: 25 20 25 20;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 2);
+}
+
+.main-title {
+    -fx-text-fill: #4ECDC4;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(78, 205, 196, 0.3), 5, 0, 0, 2);
+}
+
+.subtitle {
+    -fx-text-fill: #E8E8E8;
+    -fx-font-size: 16px;
+    -fx-font-weight: normal;
+}
+
+/* Main Content */
+.main-content {
+    -fx-alignment: CENTER;
+    -fx-background-color: rgba(255, 255, 255, 0.95);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 15, 0, 0, 5);
+}
+
+/* Controls Row */
+.controls-row {
+    -fx-alignment: CENTER;
+    -fx-padding: 20 0 20 0;
+}
+
+.language-selector {
+    -fx-alignment: CENTER;
+    -fx-min-width: 200;
+}
+
+.language-label {
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 5 0;
+}
+
+/* ComboBox Styling - Remove problematic border-radius */
+.language-combo {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #3498DB;
+    -fx-border-width: 2px;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #2C3E50;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.2), 5, 0, 0, 2);
+    -fx-cursor: hand;
+}
+
+.language-combo:hover {
+    -fx-border-color: #E74C3C;
+    -fx-background-color: #F8F9FA;
+    -fx-effect: dropshadow(gaussian, rgba(231, 76, 60, 0.3), 8, 0, 0, 3);
+}
+
+.language-combo:focused {
+    -fx-border-color: #9B59B6;
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(gaussian, rgba(155, 89, 182, 0.4), 10, 0, 0, 3);
+}
+
+.language-combo .list-cell {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #2C3E50;
+    -fx-padding: 8 12;
+}
+
+.language-combo .list-cell:hover {
+    -fx-background-color: #ECF0F1;
+}
+
+/* Swap Button */
+.swap-container {
+    -fx-alignment: CENTER;
+}
+
+.swap-spacer {
+    -fx-font-size: 14px;
+}
+
+.swap-button {
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(231, 76, 60, 0.3), 8, 0, 0, 3);
+}
+
+.swap-button:hover {
+    -fx-background-color: #C0392B;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(gaussian, rgba(192, 57, 43, 0.5), 12, 0, 0, 4);
+}
+
+.swap-button:pressed {
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+
+/* Translation Areas */
+.translation-row {
+    -fx-alignment: CENTER;
+    -fx-padding: 0 20 0 20;
+}
+
+.text-container {
+    -fx-alignment: TOP_CENTER;
+    -fx-max-width: 500;
+    -fx-min-width: 400;
+}
+
+.area-label {
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 5 5;
+}
+
+/* TextArea Styling - Remove border-radius and fix text visibility */
+.source-textarea, .target-textarea {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #BDC3C7;
+    -fx-border-width: 2px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2C3E50;
+    -fx-prompt-text-fill: #7F8C8D;
+    -fx-padding: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 8, 0, 0, 2);
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.source-textarea {
+    -fx-border-color: #3498DB;
+}
+
+.source-textarea:focused {
+    -fx-border-color: #2980B9;
+    -fx-background-color: #F8FBFF;
+    -fx-effect: dropshadow(gaussian, rgba(41, 128, 185, 0.3), 10, 0, 0, 3);
+}
+
+.target-textarea {
+    -fx-border-color: #27AE60;
+    -fx-background-color: #F9F9F9;
+}
+
+.target-textarea:focused {
+    -fx-border-color: #229954;
+    -fx-background-color: #F0FFF4;
+    -fx-effect: dropshadow(gaussian, rgba(39, 174, 96, 0.3), 10, 0, 0, 3);
+}
+
+/* Action Buttons */
+.action-buttons {
+    -fx-alignment: CENTER;
+    -fx-padding: 20 0 10 0;
+}
+
+.translate-button-container {
+    -fx-alignment: CENTER;
+}
+
+.translate-button {
+    -fx-background-color: #9B59B6;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(155, 89, 182, 0.4), 10, 0, 0, 4);
+}
+
+.translate-button:hover {
+    -fx-background-color: #8E44AD;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(gaussian, rgba(142, 68, 173, 0.6), 15, 0, 0, 6);
+}
+
+.translate-button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+.translate-button:disabled {
+    -fx-background-color: #BDC3C7;
+    -fx-opacity: 0.7;
+    -fx-cursor: default;
+}
+
+.clear-button, .copy-button {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+}
+
+.clear-button {
+    -fx-background-color: #E67E22;
+}
+
+.clear-button:hover {
+    -fx-background-color: #D35400;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(gaussian, rgba(211, 84, 0, 0.4), 8, 0, 0, 3);
+}
+
+.copy-button {
+    -fx-background-color: #16A085;
+}
+
+.copy-button:hover {
+    -fx-background-color: #138D75;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(gaussian, rgba(19, 141, 117, 0.4), 8, 0, 0, 3);
+}
+
+.copy-button:disabled {
+    -fx-background-color: #BDC3C7;
+    -fx-opacity: 0.7;
+    -fx-cursor: default;
+}
+
+/* Loading Indicator */
+.loading-indicator {
+    -fx-progress-color: #FFFFFF;
+}
+
+/* Status Label */
+.status-label {
+    -fx-text-fill: #34495E;
+    -fx-font-size: 13px;
+    -fx-font-style: italic;
+    -fx-padding: 10 0 0 0;
+    -fx-alignment: CENTER;
+}
+
+/* Footer */
+.footer-container {
+    -fx-alignment: CENTER;
+    -fx-background-color: rgba(44, 62, 80, 0.95);
+    -fx-spacing: 5;
+}
+
+.footer-title {
+    -fx-text-fill: #ECF0F1;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.footer-subtitle {
+    -fx-text-fill: #BDC3C7;
+    -fx-font-size: 11px;
+    -fx-font-style: italic;
+}
+
+/* Remove default TextArea content display background */
+.text-area .content {
+    -fx-background-color: transparent;
+}
+
+/* Custom Scrollbar */
+.text-area .scroll-bar:vertical {
+    -fx-background-color: #ECF0F1;
+    -fx-pref-width: 8px;
+}
+
+.text-area .scroll-bar:vertical .track {
+    -fx-background-color: #ECF0F1;
+}
+
+.text-area .scroll-bar:vertical .thumb {
+    -fx-background-color: #95A5A6;
+}
+
+.text-area .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #7F8C8D;
+}
+
+/* Smooth transitions */
+.language-combo, .swap-button, .translate-button, .clear-button, .copy-button {
+    -fx-transition: all 0.2s ease;
+}
+
+/* Remove any unwanted focus indicators */
+.combo-box:focused,
+.button:focused,
+.text-area:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
