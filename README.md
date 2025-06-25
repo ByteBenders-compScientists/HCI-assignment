@@ -240,8 +240,3 @@ This AI Language Translator successfully demonstrates our understanding of Human
 
 The project shows how thoughtful design can make complex technology accessible and enjoyable to use, which is the heart of good human-computer interaction.
 
----
-
-**Academic Year:** 2024/2025  
-**Submitted by:** Group [X] - Fourth Year Computer Science Students  
-**Course Instructor:** [Instructor Name]
