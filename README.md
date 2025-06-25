@@ -15,11 +15,13 @@
 
 ## Team Members
 
-| Name | Registration Number
-|------|-------------------|-----
-| [Team Member 2] | [Registration Number]
-| [Team Member 3] | [Registration Number]
-| [Team Member 4] | [Registration Number]
+**Brian Chege** - C026-01-0957/2022
+
+**[Team Member 2]** - [Registration Number]
+
+**[Team Member 3]** - [Registration Number]
+
+**[Team Member 4]** - [Registration Number]
 
 *Please update the remaining team member information*
 
