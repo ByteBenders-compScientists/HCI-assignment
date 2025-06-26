@@ -17,7 +17,7 @@
 
 **Brian Chege** - C026-01-0957/2022
 
-**[Team Member 2]** - [Registration Number]
+**Elizabeth Muthoni** - C026-01-0924/2022
 
 **[Team Member 3]** - [Registration Number]
 
