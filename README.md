@@ -23,7 +23,6 @@
 
 **Walter Onyango** - C026-01-0978/2022
 
-*Please update the remaining team member information*
 
 ## Project Overview
 
