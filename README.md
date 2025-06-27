@@ -19,7 +19,7 @@
 
 **Elizabeth Muthoni** - C026-01-0924/2022
 
-**[Team Member 3]** - [Registration Number]
+**Samwel Njuguna** - C026-01-0940/2022
 
 **Walter Onyango** - C026-01-0978/2022
 
